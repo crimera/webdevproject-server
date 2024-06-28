@@ -70,6 +70,10 @@ switch ($request) {
 		require __dir__ . '/admin/users.php';
 		break;
 
+	case '/exportDb':
+		require __dir__ . '/admin/exportdb.php';
+		break;
+
 	case '/ban':
 		require __dir__ . '/admin/ban.php';
 		break;
