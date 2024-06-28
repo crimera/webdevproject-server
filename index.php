@@ -77,4 +77,10 @@ switch ($request) {
 	case '/unBan':
 		require __dir__ . '/admin/unBan.php';
 		break;
+
+		// Download yt-dlp
+
+	case '/download':
+		require __dir__ . '/yt/download.php';
+		break;
 }
